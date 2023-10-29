@@ -4,7 +4,7 @@ from frappe import _
 import json
 import requests
 # from frappe.integrations.utils import create_payment_gateway
-from payments.utils import create_payment_gateway
+from payments.payments.utils import create_payment_gateway
 
 from frappe.model.document import Document
 from frappe.utils import call_hook_method, nowdate
