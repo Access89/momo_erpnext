@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include momo *.css
+recursive-include momo *.csv
+recursive-include momo *.html
+recursive-include momo *.ico
+recursive-include momo *.js
+recursive-include momo *.json
+recursive-include momo *.md
+recursive-include momo *.png
+recursive-include momo *.py
+recursive-include momo *.svg
+recursive-include momo *.txt
+recursive-exclude momo *.pyc

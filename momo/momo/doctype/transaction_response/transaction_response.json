@@ -1,0 +1,72 @@
+{
+ "actions": [],
+ "autoname": "field:reference",
+ "creation": "2021-04-20 19:04:34.249298",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "authorization_url",
+  "access_code",
+  "reference",
+  "payment_request",
+  "status"
+ ],
+ "fields": [
+  {
+   "fieldname": "authorization_url",
+   "fieldtype": "Data",
+   "label": "Authorization URL",
+   "read_only": 1
+  },
+  {
+   "fieldname": "access_code",
+   "fieldtype": "Data",
+   "label": "Access Code",
+   "read_only": 1
+  },
+  {
+   "fieldname": "reference",
+   "fieldtype": "Data",
+   "label": "Reference",
+   "read_only": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "payment_request",
+   "fieldtype": "Data",
+   "label": "Payment Request",
+   "read_only": 1
+  },
+  {
+   "fieldname": "status",
+   "fieldtype": "Data",
+   "label": "Status",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2021-10-05 12:52:49.757797",
+ "modified_by": "Administrator",
+ "module": "Momo",
+ "name": "Transaction Response",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
